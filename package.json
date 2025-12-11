@@ -1,0 +1,26 @@
+{
+  "name": "langchain-small-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f .env.dev -- npx tsx ./src/index.ts",
+    "prompt-tmp": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^1.1.4",
+    "@langchain/openai": "^1.1.3",
+    "env-cmd": "^11.0.0",
+    "langchain": "^1.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
