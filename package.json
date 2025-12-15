@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "env-cmd -f .env.dev -- npx tsx ./src/index.ts",
     "agent": "npx env-cmd -f .env.dev npx tsx ./src/agent-bot/index.ts",
+    "memory": "npx env-cmd -f .env.dev npx tsx ./src/memory/index.ts",
     "prompt-tmp": "npx env-cmd -f .env.dev npx tsx ./src/prompt-template/index.ts",
     "retrive-chain": "npx env-cmd -f .env.dev npx tsx ./src/retrieval-chain/index.ts",
     "convent-chain": "npx env-cmd -f .env.dev npx tsx ./src/convention-chain/index.ts"
