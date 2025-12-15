@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "env-cmd -f .env.dev -- npx tsx ./src/index.ts",
+    "agent": "npx env-cmd -f .env.dev npx tsx ./src/agent-bot/index.ts",
     "prompt-tmp": "npx env-cmd -f .env.dev npx tsx ./src/prompt-template/index.ts",
     "retrive-chain": "npx env-cmd -f .env.dev npx tsx ./src/retrieval-chain/index.ts",
     "convent-chain": "npx env-cmd -f .env.dev npx tsx ./src/convention-chain/index.ts"
@@ -22,6 +23,7 @@
     "cheerio": "^1.1.2",
     "env-cmd": "^11.0.0",
     "langchain": "^1.1.5",
+    "readline": "^1.3.0",
     "zod": "^4.1.13"
   },
   "devDependencies": {
